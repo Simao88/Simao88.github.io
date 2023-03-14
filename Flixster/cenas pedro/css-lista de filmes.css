@@ -1,0 +1,177 @@
+body {
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+td {
+  color: white;
+}
+#ano_cat {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+h2 {
+  color: white;
+}
+
+#descricao_quadrado {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 25px;
+  opacity: 1;
+  color: white;
+  padding: 0% 3%;
+}
+
+#descricao_ultimalinha {
+  align-items: center;
+}
+
+#primeiro_fundo {
+  background-image: url(imagens/Poltergeist-fundo.jpg);
+
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#primeiro_fundo_Avatar {
+  background-image: url(imagens/Avatar-fundo\(1\).jpg);
+
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#primeiro_fundo_Vingadores {
+  background-image: url(imagens/Vingadores-fundo.jpg);
+
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#primeiro_fundo_avengers {
+  background-image: url(imagens/avengers-age-of-ultron.jpg);
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#primeiro_fundo_vida_inseto {
+  background-image: url(imagens/Uma\ vida\ de\ inseto-fundo.jpg);
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#primeiro_fundo_Brave {
+  background-image: url(imagens/Brave.jpg);
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#primeiro_fundo_Carros {
+  background-image: url(imagens/Carros-fundo.jpg);
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#primeiro_fundo_10coisas {
+  background-image: url(imagens/10\ Things\ I\ Hate\ About\ You-fundo.jpg);
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#primeiro_fundo_Dirty_Dancing {
+  background-image: url(imagens/Dirty\ Dancing-fundo.jpeg);
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#primeiro_fundo_Amigos_coloridos {
+  background-image: url(imagens/Friends-With-Benefits-fundo.jpg);
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#primeiro_Maligno {
+  background-image: url(imagens/Maligno-fundo.jpg);
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#primeiro_fundo_Doutor_Sono {
+  background-image: url(imagens/Doutor\ Sono-fundo.jpg);
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.no_op {
+  opacity: 1;
+  background-color: black;
+}
+
+.puxa-baixo {
+  margin: 12% 0%;
+}
+
+.layout {
+  padding: 5%;
+}
+
+.tamanho {
+  height: 150dvh;
+}
+
+.icon-coracao {
+  color: white;
+}
+
+.icon-coracao:active {
+  color: red;
+}
+
+.icon-olho {
+  color: white;
+}
+
+.icon-olho:active {
+  color: rgb(64, 255, 47);
+}
+
+.botao_trailer {
+  color: white;
+  text-decoration: none;
+  border: 0em solid black;
+  font-weight: 500;
+  font-size: 1.5em;
+  padding: 7px 15px;
+  border-radius: 6px;
+  transition: 0.5s ease;
+  background: #000053bd;
+}
+.botao_trailer:hover {
+  background: radial-gradient(ellipse at center, #0101aabd 50%, #000053bd 100%);
+  font-weight: 500;
+  color: whitesmoke;
+  padding: 20px 35px 20px 35px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.779);
+}
+
+#espaço {
+  font-weight: 700;
+  margin-bottom: 5%;
+  margin-top: 0%;
+  padding: 5%, 10%;
+}

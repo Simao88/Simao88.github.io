@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Tilt Neon', cursive;
+    overflow:hidden;
+}
+
+
+.body1{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: url("GIF1.gif") repeat;
+    background-size:70vh ;
+    background-position: center;
+}
+
+.body2{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: url("GIF2.gif") repeat;
+    background-size:70vh ;
+    background-position: center;
+}
+
+
+header{
+    position:fixed;  
+    background:#010161b0;
+    left:0;
+    width:100%;
+    padding: 10px 8px 10px 15px;
+    /*background: radial-gradient(circle, rgba(52,77,201,1) 10%, rgba(29,18,47,1) 90%); */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 90; /* Mete o header acima de tudo */
+}
+
+.logo{
+    font-size: 2.5em;
+    text-decoration: none;
+    color:whitesmoke;
+    padding-left: 2px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.logo:hover{
+    font-size: 2.6em;
+    text-decoration-color: red ;
+    transition: 0.4s;
+}
+
+.homepage {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.custom-btn-1 {
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Tilt Neon', cursive;
+    font-weight: 800;
+    font-size: 1.5em;
+    background:transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     /*box-shadow:inset 
+     0px 3px 0px 0px rgb(255, 255, 255);*/
+    outline: none;
+    margin: 0px 10px 0px 10px;
+    /*border: 0.1em solid #050444;*/
+}
+
+
+.btn-1 {
+    border: none;
+    color: white;
+    /*text-shadow: 1px 1px rgba(245, 245, 245, 0.779);*/
+  }
+
+.btn-1:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 7px;
+    /*box-shadow:
+    -7px -7px 20px 0px rgb(0, 0, 0);*/
+    direction: rtl;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+.btn-1:hover {
+    scale: 110%;
+    font-weight: 800;
+    color: whitesmoke; 
+    /*text-shadow: 1px 1px rgba(0, 0, 0, 0.779); */
+}
+
+
+.btn-1:active {
+    top: 2px;
+}
+
+.general{
+    position:relative;
+    width: 100%;
+    height: 50em;
+    display: flex;
+    align-items: center;
+    padding: 50 20 50 20; /* remover se não formos escrever nada em cima das imagens*/
+    justify-content:center ; 
+}
+
+.general .content{
+    color:whitesmoke;
+    padding-bottom: 20px;
+}
+
+.content h2{
+    font-size: 4.5em;
+    text-shadow: 2px 2px black;
+}
+
+.content p{
+    margin: 10px 0px 20px 0px;
+    font-size: 1.7em;
+    text-shadow:2px 2px black;
+}
+
+.content a{
+    color: white;
+    text-decoration: none;
+    border: 0.1em solid #050444e3;
+    font-weight: 700;
+    font-size: 2.5em;
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    background:#000053bd;
+    
+}
+
+.content a:hover{
+    font-size: 2.7em;
+    color: whitesmoke;
+ 
+}
+
+
+.general .loginbox{
+    position: relative;
+    width: 450px;  
+    background: #252823d7;  
+    border-radius: 20px;
+    height: 450px ;
+    width: 35%;
+    padding: 40px 15px 5px 20px;
+}
+
+
+.loginbox h2{
+    font-size: 3em;
+    color:whitesmoke;
+    text-align: center;
+    
+}
+
+.loginbox .textbox{
+    position: relative;
+    width: 100%;
+    height:50px;
+    margin:40px 0px;
+    color:red;
+    
+    
+}
+
+.textbox input{
+    width: 100%;
+    height:100%;
+    background: transparent;
+    outline: none;
+    border-radius: 9px;
+    font-size: 1.2em;
+    padding: 0 5px 0 50px;
+    color: whitesmoke;
+    }
+
+.textbox label{
+    position: absolute;
+    top: 45%;
+    left:45px;
+    transform: translateY(-50%);
+    font-size:1.2em;
+    color:whitesmoke;
+    transition: 0.2s ease;
+}
+
+.textbox .icon{
+    position: absolute;
+    font-size: 1.2em;
+    color:whitesmoke;
+    margin: 14px 0px 0px 15px;
+}
+
+.textbox input:focus~label, .textbox input:valid~label {
+    font-size: 0.7em;
+    top: -20px;
+    left: 20px;
+}
+
+
+
+
+
+
+/*Carrossel*/
+.bg-img-1 {
+    background-image: url('https://images.unsplash.com/photo-1545575439-3261931f52f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80');
+}
+
+.bg-img-2 {
+    background-image: url('https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+}
+
+.bg-img-3 {
+    background-image: url('https://images.unsplash.com/photo-1605050825077-289f85b6cf43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+}
+
+.carousel-image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+/*Carrossel*/
+
+
+.btn-2 {
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800px;
+    /*text-shadow:2px 2px black*/
+  }
+
+.btn-2:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 7px;
+    /*direction: rtl;*/
+    z-index: 1;
+    /*box-shadow:
+     -7px -7px 20px 0px rgb(255, 255, 255),
+     -4px -4px 5px 0px rgb(255, 255, 255),
+     7px 7px 20px 0px rgb(255, 255, 255),
+     4px 4px 5px 0px rgb(255, 255, 255);*/
+    transition: all 0.3s ease;
+}
+.btn-2:hover {
+    /*color: rgb(255, 255, 255);*/
+    scale: 110%;
+    /*z-index: 2;*/
+}
+
+
+
+.btn-2:active {
+    top: 1px;
+}
+
+.custom-btn-2 {
+    width: 150px;
+    height: 45px;
+    border-radius: 3px;
+    padding: 10px 25px;
+    font-family: 'Tilt Neon', cursive;
+    font-weight: 800;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+

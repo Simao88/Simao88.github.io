@@ -1,0 +1,202 @@
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+td {
+  color: white;
+}
+#ano_cat {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+h2 {
+  color: white;
+}
+
+#descricao_quadrado {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 25px;
+  opacity: 1;
+  color: white;
+  padding: 0% 3%;
+}
+
+#descricao_ultimalinha {
+  align-items: center;
+}
+
+#primeiro_fundo_Vampire {
+  background-image: url(imagens/diários-de-um-vampiro-fundo.jpg);
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#primeiro_fundo_Naruto {
+  background-image: url(imagens/Naruto\ Shippuden-FUNDO.jpg);
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#primeiro_fundo_Tokyo_Ghoul {
+  background-image: url(imagens/Tokyo\ Ghoul-fundo.jpg);
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#primeiro_fundo_Jujutsu_Kaisen {
+  background-image: url(imagens/jujutsu-kaisen.jpg);
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.no_op {
+  opacity: 1;
+  background-color: black;
+}
+
+.puxa-baixo {
+  margin: 12% 0%;
+}
+
+.layout {
+  padding: 5%;
+}
+
+.tamanho {
+  height: 300dvh;
+}
+
+.tamanho_2 {
+  height: 250dvh;
+}
+.icon-coracao {
+  color: white;
+}
+
+.icon-coracao:active {
+  color: red;
+}
+
+.icon-olho {
+  color: white;
+}
+
+.icon-olho:active {
+  color: rgb(64, 255, 47);
+}
+
+.botao_trailer {
+  color: white;
+  text-decoration: none;
+  border: 0em solid black;
+  font-weight: 500;
+  font-size: 1.5em;
+  padding: 7px 15px;
+  border-radius: 6px;
+  transition: 0.5s ease;
+  background: #000053bd;
+}
+.botao_trailer:hover {
+  background: radial-gradient(ellipse at center, #0101aabd 50%, #000053bd 100%);
+  font-weight: 500;
+  color: whitesmoke;
+  padding: 20px 35px 20px 35px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.779);
+}
+
+#espaço {
+  font-weight: 700;
+  margin-bottom: 5%;
+  margin-top: 0%;
+  padding: 5%, 10%;
+}
+
+.caixinha_ep_serie {
+  background-color: rgba(0, 0, 255, 0.284);
+  border-radius: 20px;
+  padding: 0% 10%;
+
+  width: 100%;
+  border: rgba(181, 178, 178, 0.51);
+  box-shadow: rgba(106, 106, 106, 0.574);
+}
+
+.caixinha_ep_serie img {
+  padding: 10% 0%;
+  border-radius: 25px;
+  height: 100%;
+  width: 100%;
+}
+.Titulo_caixinha_ep {
+  height: 30%;
+  font-size: 100%;
+  font-weight: 900;
+  color: white;
+}
+
+.circulo {
+  align-items: center;
+  height: 70%;
+  width: 40%;
+  background-color: #4134f9;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.circulo_2dig {
+  align-items: center;
+  height: 80%;
+  width: 45%;
+  background-color: #4134f9;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.circulo p {
+  text-decoration: none;
+  color: white;
+}
+
+.circulo p:hover {
+  color: rgb(85, 194, 230);
+}
+.circulo_2dig p {
+  text-decoration: none;
+  color: white;
+}
+
+.circulo_2dig p:hover {
+  color: rgb(85, 194, 230);
+}
+
+.ep_selecionado {
+  opacity: 0.7;
+  border: 5px white;
+}
+
+#ep_edicao {
+  height: 30%;
+  font-size: 200%;
+  font-weight: 900;
+  color: white;
+}
+
+.puxa-baixo_metade {
+  margin: 6% 0%;
+}
+
+.puxa-baixo_metade_metade {
+  margin: 3% 0%;
+}

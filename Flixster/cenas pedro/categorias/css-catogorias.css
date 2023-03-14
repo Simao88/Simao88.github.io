@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Tilt Neon", cursive;
+}
+
+body {
+  background: rgb(52, 77, 201);
+  background: radial-gradient(
+    circle,
+    rgba(52, 77, 201, 1) 0%,
+    rgba(29, 18, 47, 1) 100%
+  );
+  padding: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  border: none;
+  border-style: hidden;
+}
+
+.navegacao {
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: sticky;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 500px;
+}
+.fsalista {
+  flex-grow: 1;
+  text-align: center;
+  position: relative;
+}
+
+.titnav {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: bold;
+  display: block;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+}
+
+.titnav::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 0;
+  background-color: rgb(170, 14, 74);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.titnav:hover,
+.titnav.active {
+  color: white;
+}
+
+.titnav:hover::after,
+.titnav.active::after {
+  width: 100%;
+}
+
+.titalus {
+  padding-top: 5%;
+  margin: 0%;
+}
+
+.navegacao.visible {
+  transform: translateY(0);
+}
+
+.navegacao.hidden {
+  transform: translateY(-100%);
+}
+
+.navegacao {
+  padding: 5% 0% 0% 0%;
+  margin: 5% 0% 0% 0%;
+  align-items: center;
+}
+.capas_filmes_etc {
+  height: 220%;
+  width: 100%;
+  margin: 40% 40%;
+}
+
+.tamanho_card {
+  padding: 10% 5%;
+}
