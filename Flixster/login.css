@@ -25,10 +25,8 @@
   margin: 0px;
   padding: 0px;
   background: url("GIF2.gif") repeat;
-
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 70vh;
 }
 
 header {
