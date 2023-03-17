@@ -142,6 +142,11 @@ a {
   padding: 5% 5%;
 }
 
+.contentor a{
+  text-decoration: none;
+}
+
+
 .card {
   color: white;
   position: relative;
@@ -206,6 +211,10 @@ a {
   box-sizing: border-box;
   align-items: center;
   margin: 5% 5% 5% 10%;
+}
+
+.container2 a{
+  text-decoration: none;
 }
 
 .title2 {
